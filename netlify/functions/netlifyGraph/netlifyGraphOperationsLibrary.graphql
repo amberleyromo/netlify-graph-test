@@ -6,6 +6,9 @@ query ExampleQuery @netlify(id: "7645749f-8f1e-40b0-b066-3e1497876af6", doc: "An
         name
         url
       }
+      diskUsage
+      forkCount
+      discussionCategories(after: "1212")
     }
   }
 }

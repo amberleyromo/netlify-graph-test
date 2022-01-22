@@ -56,6 +56,9 @@ const operationsDoc = `query ExampleQuery @netlify(id: "7645749f-8f1e-40b0-b066-
         name
         url
       }
+      diskUsage
+      forkCount
+      discussionCategories(after: "1212")
     }
   }
 }

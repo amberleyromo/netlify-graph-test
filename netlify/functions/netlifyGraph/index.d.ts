@@ -29,7 +29,13 @@ export function fetchExampleQuery(
   * The contact link URL.
   */
   "url": any
-    }>
+    }>, /**
+  * The number of kilobytes this repository occupies on disk.
+  */
+  "diskUsage": number, /**
+  * Returns how many forks there are of this repository in the whole network.
+  */
+  "forkCount": number
     }
     }
     }, /**
