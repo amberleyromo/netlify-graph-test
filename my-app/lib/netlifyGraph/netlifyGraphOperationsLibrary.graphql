@@ -1,0 +1,44 @@
+query ExampleQuery @netlify(id: "7645749f-8f1e-40b0-b066-3e1497876af6", doc: "An empty query to start from") {
+  gitHub {
+    repository(name: "netlify-graph-test", owner: "localden") {
+      contactLinks {
+        about
+        name
+        url
+      }
+      diskUsage
+      forkCount
+      discussionCategories(after: "1212")
+      deleteBranchOnMerge
+      databaseId
+      createdAt
+    }
+    enterprise(slug: "") {
+      avatarUrl
+      createdAt
+      databaseId
+      description
+    }
+  }
+}
+
+query ExampleQuery @netlify(id: "8e83510e-a384-4d15-a21f-b7d054db42a5", doc: "An empty query to start from") {
+  salesforce {
+    acceptedEventRelation(id: "") {
+      createdBy {
+        aboutMe
+      }
+    }
+  }
+  spotify {
+    me {
+      country
+      displayName
+      email
+    }
+  }
+}
+
+query ExampleQuery @netlify(id: "f1a7c30e-3b11-4fc8-88c0-d51ef3a57901", doc: "An example query to start with.") {
+  __typename
+}

@@ -3,8 +3,6 @@
 	"oneGraphSessionId": "fc1b8bb4-643b-4b55-986a-3833cd56abbb",
 	"oneGraphEnabledServices": [
 		"GITHUB",
-		"ONEGRAPH",
-		"SALESFORCE",
-		"SPOTIFY"
+		"ONEGRAPH"
 	]
 }
